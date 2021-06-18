@@ -16,9 +16,8 @@ Simply ensure that you have the required packages, the attached data, and it sho
 ## Data Extractor
 As part of freedom of data and to help everyone involved, I have recently added the Data Extractor that I have used and refined eventually in order to get the data I need.
 
-Please note that putting the raw .csv into the Analyser does not work for the time being. I still have some TODOs, in particular: Data is raw and will need small touches on Excel - removing quotation marks, adding Adjusted Economic Freedom, etc. I would recommend that you use the data I provided; this is more of me posting this code so that those who want to can do it at home. ^^
-
-Adjusted Economic Freedom's quick formula: If Economic Freedom < 0, add 100. If it is 0, 50 for now (it currently ignores Communist/Capitalist policies, another to-do!). If Economic Freedom > 0, leave it.
+# Regarding .csv files - UPDATED
+As of 18th of June, 2021, I am happy to announce that this is working fantastic right now. You don't need to wait for Excel to slowly load the file anymore. Just drop the name of the raw CSV data file you got using my extractor, and let it run. It will take out those with blank results (could be due to CTE/DEAT/etc.)
 
 ## Credits
 Various credits are given in each of the snippets where I have taken some ideas here and there from StackOverflow.
